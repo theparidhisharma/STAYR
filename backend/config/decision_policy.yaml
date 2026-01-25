@@ -1,0 +1,22 @@
+bsi:
+  base_score: 100
+
+  penalties:
+    non_refundable: 20
+    budget_overflow: 30
+    low_budget_slack: 10
+    conflict_penalty: 5
+
+  rewards:
+    supplier_reliability_weight: 25
+
+  operational_effort_weight: 5
+
+credit:
+  hard_breach_penalty: 40
+  high_stress_penalty: 20
+  moderate_stress_penalty: 10
+
+decision_thresholds:
+  reject_bsi_below: 40
+  reject_conflicts_above: 1
