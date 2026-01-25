@@ -29,10 +29,6 @@ AgentInput
 → Explanation Layer
 → Agent Output
 
-## Why No ML?
-This system prioritizes explainability, controllability, and trust.
-BSI is a relative decision-support metric, not a predictive model.
-
 ## Running the Agent (No Server Required)
 ```bash
 PYTHONPATH=backend python backend/scripts/simulate_agent_flow.py
